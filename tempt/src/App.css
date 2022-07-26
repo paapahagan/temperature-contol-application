@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.app-container {
+  width: 300px;
+  height: 500px;
+  background: #2b5870;
+  border-radius: 20%;
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.75);
+}
+.temperature-display-conatainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+.temperature-display {
+  display: flex;
+  border-radius: 50%;
+  color: wheat;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  border: 3px #ffffff solid;
+  transition: background 0.5s;
+}
+button {
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  font-size: 32px;
+  color: #ffffff;
+  background-color: rgb(105, 104, 104);
+  border: 2px solid white;
+}
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  background: rgb(184, 184, 184);
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
